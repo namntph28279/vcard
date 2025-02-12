@@ -7,7 +7,7 @@ abstract final class ContactPropertis {
   static const String designation = 'Designation';
   static const String website = 'Website';
 }
-
+const String emptyFieldErrMsg = 'This field must not be empty';
 const String hint =
     'Long press and Drag each item from the below list and drop above int the '
     'appropriate box. You can drop multiple items over a single box.';
